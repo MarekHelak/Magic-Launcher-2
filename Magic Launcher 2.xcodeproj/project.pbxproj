@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAD24DC61B26262100024110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD24DC51B26262100024110 /* main.m */; };
+		EAD24DC91B26262100024110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD24DC81B26262100024110 /* AppDelegate.m */; };
+		EAD24DCC1B26262100024110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD24DCB1B26262100024110 /* ViewController.m */; };
+		EAD24DCF1B26262100024110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD24DCD1B26262100024110 /* Main.storyboard */; };
+		EAD24DD11B26262100024110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD24DD01B26262100024110 /* Images.xcassets */; };
+		EAD24DD41B26262100024110 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD24DD21B26262100024110 /* LaunchScreen.xib */; };
+		EAD24DE01B26262100024110 /* Magic_Launcher_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD24DDF1B26262100024110 /* Magic_Launcher_2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD24DDA1B26262100024110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD24DB81B26262100024110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD24DBF1B26262100024110;
+			remoteInfo = "Magic Launcher 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAD24DC01B26262100024110 /* Magic Launcher 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Launcher 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD24DC41B26262100024110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD24DC51B26262100024110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAD24DC71B26262100024110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAD24DC81B26262100024110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAD24DCA1B26262100024110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAD24DCB1B26262100024110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAD24DCE1B26262100024110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD24DD01B26262100024110 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAD24DD31B26262100024110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAD24DD91B26262100024110 /* Magic Launcher 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic Launcher 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD24DDE1B26262100024110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD24DDF1B26262100024110 /* Magic_Launcher_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Magic_Launcher_2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD24DBD1B26262100024110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD24DD61B26262100024110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD24DB71B26262100024110 = {
+			isa = PBXGroup;
+			children = (
+				EAD24DC21B26262100024110 /* Magic Launcher 2 */,
+				EAD24DDC1B26262100024110 /* Magic Launcher 2Tests */,
+				EAD24DC11B26262100024110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD24DC11B26262100024110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD24DC01B26262100024110 /* Magic Launcher 2.app */,
+				EAD24DD91B26262100024110 /* Magic Launcher 2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD24DC21B26262100024110 /* Magic Launcher 2 */ = {
+			isa = PBXGroup;
+			children = (
+				EAD24DC71B26262100024110 /* AppDelegate.h */,
+				EAD24DC81B26262100024110 /* AppDelegate.m */,
+				EAD24DCA1B26262100024110 /* ViewController.h */,
+				EAD24DCB1B26262100024110 /* ViewController.m */,
+				EAD24DCD1B26262100024110 /* Main.storyboard */,
+				EAD24DD01B26262100024110 /* Images.xcassets */,
+				EAD24DD21B26262100024110 /* LaunchScreen.xib */,
+				EAD24DC31B26262100024110 /* Supporting Files */,
+			);
+			path = "Magic Launcher 2";
+			sourceTree = "<group>";
+		};
+		EAD24DC31B26262100024110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD24DC41B26262100024110 /* Info.plist */,
+				EAD24DC51B26262100024110 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAD24DDC1B26262100024110 /* Magic Launcher 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD24DDF1B26262100024110 /* Magic_Launcher_2Tests.m */,
+				EAD24DDD1B26262100024110 /* Supporting Files */,
+			);
+			path = "Magic Launcher 2Tests";
+			sourceTree = "<group>";
+		};
+		EAD24DDD1B26262100024110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD24DDE1B26262100024110 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD24DBF1B26262100024110 /* Magic Launcher 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD24DE31B26262100024110 /* Build configuration list for PBXNativeTarget "Magic Launcher 2" */;
+			buildPhases = (
+				EAD24DBC1B26262100024110 /* Sources */,
+				EAD24DBD1B26262100024110 /* Frameworks */,
+				EAD24DBE1B26262100024110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic Launcher 2";
+			productName = "Magic Launcher 2";
+			productReference = EAD24DC01B26262100024110 /* Magic Launcher 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAD24DD81B26262100024110 /* Magic Launcher 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD24DE61B26262100024110 /* Build configuration list for PBXNativeTarget "Magic Launcher 2Tests" */;
+			buildPhases = (
+				EAD24DD51B26262100024110 /* Sources */,
+				EAD24DD61B26262100024110 /* Frameworks */,
+				EAD24DD71B26262100024110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD24DDB1B26262100024110 /* PBXTargetDependency */,
+			);
+			name = "Magic Launcher 2Tests";
+			productName = "Magic Launcher 2Tests";
+			productReference = EAD24DD91B26262100024110 /* Magic Launcher 2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD24DB81B26262100024110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Marek Helak";
+				TargetAttributes = {
+					EAD24DBF1B26262100024110 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EAD24DD81B26262100024110 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EAD24DBF1B26262100024110;
+					};
+				};
+			};
+			buildConfigurationList = EAD24DBB1B26262100024110 /* Build configuration list for PBXProject "Magic Launcher 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD24DB71B26262100024110;
+			productRefGroup = EAD24DC11B26262100024110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD24DBF1B26262100024110 /* Magic Launcher 2 */,
+				EAD24DD81B26262100024110 /* Magic Launcher 2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD24DBE1B26262100024110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD24DCF1B26262100024110 /* Main.storyboard in Resources */,
+				EAD24DD41B26262100024110 /* LaunchScreen.xib in Resources */,
+				EAD24DD11B26262100024110 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD24DD71B26262100024110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD24DBC1B26262100024110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD24DCC1B26262100024110 /* ViewController.m in Sources */,
+				EAD24DC91B26262100024110 /* AppDelegate.m in Sources */,
+				EAD24DC61B26262100024110 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD24DD51B26262100024110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD24DE01B26262100024110 /* Magic_Launcher_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAD24DDB1B26262100024110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD24DBF1B26262100024110 /* Magic Launcher 2 */;
+			targetProxy = EAD24DDA1B26262100024110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAD24DCD1B26262100024110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD24DCE1B26262100024110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD24DD21B26262100024110 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD24DD31B26262100024110 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD24DE11B26262100024110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAD24DE21B26262100024110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD24DE41B26262100024110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magic Launcher 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD24DE51B26262100024110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Magic Launcher 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAD24DE71B26262100024110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Magic Launcher 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Launcher 2.app/Magic Launcher 2";
+			};
+			name = Debug;
+		};
+		EAD24DE81B26262100024110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Magic Launcher 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Launcher 2.app/Magic Launcher 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD24DBB1B26262100024110 /* Build configuration list for PBXProject "Magic Launcher 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD24DE11B26262100024110 /* Debug */,
+				EAD24DE21B26262100024110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD24DE31B26262100024110 /* Build configuration list for PBXNativeTarget "Magic Launcher 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD24DE41B26262100024110 /* Debug */,
+				EAD24DE51B26262100024110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAD24DE61B26262100024110 /* Build configuration list for PBXNativeTarget "Magic Launcher 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD24DE71B26262100024110 /* Debug */,
+				EAD24DE81B26262100024110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD24DB81B26262100024110 /* Project object */;
+}
