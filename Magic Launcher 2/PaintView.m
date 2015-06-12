@@ -134,7 +134,6 @@
     [self findGesture];
     _drawImage.image = nil;
     }
-  
 }
 
 - (void)drawRect:(CGRect)rect {
@@ -198,7 +197,7 @@
         }
         NSLog(@"It's similar in %d", similar);
         
-        if (similar > 575){
+        if (similar > 555){
             
             //Take action from last
             NSInteger actionNR = [[storedGesture substringFromIndex:[storedGesture length] - 1] intValue];
@@ -207,8 +206,6 @@
                 case 2: [GestureEvents runCamera]; break;
                 case 3: [GestureEvents goGoogle]; break;
             }
-            
-            
         }
     }
 }
