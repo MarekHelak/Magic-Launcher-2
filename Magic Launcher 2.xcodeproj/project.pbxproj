@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA121D0E1B278E1D00B14014 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA121D0D1B278E1D00B14014 /* PaintView.m */; };
+		EAC75C1D1B26387100461D9E /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC75C1C1B26387100461D9E /* DrawViewController.m */; };
 		EAD24DC61B26262100024110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD24DC51B26262100024110 /* main.m */; };
 		EAD24DC91B26262100024110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD24DC81B26262100024110 /* AppDelegate.m */; };
 		EAD24DCC1B26262100024110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD24DCB1B26262100024110 /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		EAD24DD11B26262100024110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD24DD01B26262100024110 /* Images.xcassets */; };
 		EAD24DD41B26262100024110 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD24DD21B26262100024110 /* LaunchScreen.xib */; };
 		EAD24DE01B26262100024110 /* Magic_Launcher_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD24DDF1B26262100024110 /* Magic_Launcher_2Tests.m */; };
+		EAD24DEB1B26332400024110 /* CustomGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD24DEA1B26332400024110 /* CustomGesture.m */; };
+		EAD568441B2B7DEB0052416C /* GestureEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD568431B2B7DEB0052416C /* GestureEvents.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA121D0D1B278E1D00B14014 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		EAC75C1B1B26387100461D9E /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		EAC75C1C1B26387100461D9E /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
 		EAD24DC01B26262100024110 /* Magic Launcher 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Launcher 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD24DC41B26262100024110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAD24DC51B26262100024110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,11 @@
 		EAD24DD91B26262100024110 /* Magic Launcher 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic Launcher 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD24DDE1B26262100024110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAD24DDF1B26262100024110 /* Magic_Launcher_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Magic_Launcher_2Tests.m; sourceTree = "<group>"; };
+		EAD24DE91B26332400024110 /* CustomGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGesture.h; sourceTree = "<group>"; };
+		EAD24DEA1B26332400024110 /* CustomGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGesture.m; sourceTree = "<group>"; };
+		EAD568421B2B7DEB0052416C /* GestureEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureEvents.h; sourceTree = "<group>"; };
+		EAD568431B2B7DEB0052416C /* GestureEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureEvents.m; sourceTree = "<group>"; };
+		EAD6D6601B27875100F2C8CF /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +98,17 @@
 				EAD24DCA1B26262100024110 /* ViewController.h */,
 				EAD24DCB1B26262100024110 /* ViewController.m */,
 				EAD24DCD1B26262100024110 /* Main.storyboard */,
+				EAC75C1B1B26387100461D9E /* DrawViewController.h */,
+				EAC75C1C1B26387100461D9E /* DrawViewController.m */,
+				EAD6D6601B27875100F2C8CF /* PaintView.h */,
+				EA121D0D1B278E1D00B14014 /* PaintView.m */,
+				EAD568421B2B7DEB0052416C /* GestureEvents.h */,
+				EAD568431B2B7DEB0052416C /* GestureEvents.m */,
 				EAD24DD01B26262100024110 /* Images.xcassets */,
 				EAD24DD21B26262100024110 /* LaunchScreen.xib */,
 				EAD24DC31B26262100024110 /* Supporting Files */,
+				EAD24DE91B26332400024110 /* CustomGesture.h */,
+				EAD24DEA1B26332400024110 /* CustomGesture.m */,
 			);
 			path = "Magic Launcher 2";
 			sourceTree = "<group>";
@@ -219,9 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAD24DEB1B26332400024110 /* CustomGesture.m in Sources */,
+				EAC75C1D1B26387100461D9E /* DrawViewController.m in Sources */,
 				EAD24DCC1B26262100024110 /* ViewController.m in Sources */,
 				EAD24DC91B26262100024110 /* AppDelegate.m in Sources */,
 				EAD24DC61B26262100024110 /* main.m in Sources */,
+				EAD568441B2B7DEB0052416C /* GestureEvents.m in Sources */,
+				EA121D0E1B278E1D00B14014 /* PaintView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +442,7 @@
 				EAD24DE51B26262100024110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAD24DE61B26262100024110 /* Build configuration list for PBXNativeTarget "Magic Launcher 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				EAD24DE81B26262100024110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
